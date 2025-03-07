@@ -25,8 +25,11 @@ Things to reflect on:
 */
 
 let customerName = "Alice";
+let customerLastName = "Smith";
+let itemOne = "eggs"
+let itemTwo = "milk"
 let totalItems = 5;
 let totalPrice = 20;
-let statement = customerName + " bought " + totalItems + " items for $" + totalPrice + ".";
+let statement = customerName + " " + customerLastName + " bought " + totalItems + " items for $" + totalPrice + " which included " + itemOne + " and " + itemTwo + ".";
 
 console.log(statement);
